@@ -1,12 +1,56 @@
-# React + Vite
+# 🧩 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **interactive quiz application** built with **React (Vite)** and styled using modern **CSS**.  
+The app fetches questions dynamically from the **Open Trivia DB API**, tracks user progress, and shows a detailed result screen at the end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [Try the Quiz App Here](https://react-quiz-app-five-mu.vercel.app/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🎯 **Dynamic Questions** – Pulled live from the Open Trivia DB API.
+- 📊 **Progress Tracking** – Visual progress bar updates after each question.
+- ✅ **Answer Feedback** – Shows correct/incorrect feedback instantly.
+- 🏆 **Results Summary** – Displays score, percentage, and correct answers.
+- 🔄 **Restart Option** – Take the quiz again with fresh questions.
+- 📱 **Responsive Design** – Optimized for desktop and mobile screens.
+
+---
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/react-quiz-app.git
+cd react-quiz-app
+```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Run the Development Server
+```bash
+npm run dev
+```
+### 4️⃣ Build for Production
+```bash
+npm run build
+npm run preview
+```
+## 🛠️ Tech Stack
+
+Frontend: React (Vite), JSX, CSS
+
+API: Open Trivia DB
+
+Deployment: Vercel
+
+## 🎯 Future Improvements
+- Add timer-based questions ⏱️
+- Add user authentication & leaderboard 👥
+- Support different categories & difficulty levels 🎲
+- Store quiz history using localStorage or backend 📊
+
